@@ -24,6 +24,7 @@
 		5020494728107856001D6AA8 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020494628107856001D6AA8 /* RandomQuestionStrategy.swift */; };
 		5020494928118D15001D6AA8 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020494828118D15001D6AA8 /* AppSettings.swift */; };
 		5020494B28118F5E001D6AA8 /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020494A28118F5E001D6AA8 /* AppSettingsViewController.swift */; };
+		5020494E2811C918001D6AA8 /* DiskCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020494D2811C918001D6AA8 /* DiskCaretaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		5020494628107856001D6AA8 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
 		5020494828118D15001D6AA8 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		5020494A28118F5E001D6AA8 /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
+		5020494D2811C918001D6AA8 /* DiskCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCaretaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		5020491B280F19F6001D6AA8 /* DesignPatternsTrainingApp */ = {
 			isa = PBXGroup;
 			children = (
+				5020494C2811C8C7001D6AA8 /* Caretakers */,
 				5020494128105912001D6AA8 /* Strategies */,
 				5020493C280F1EF0001D6AA8 /* Resources */,
 				5020493B280F1EE4001D6AA8 /* Views */,
@@ -146,6 +149,14 @@
 				5020494628107856001D6AA8 /* RandomQuestionStrategy.swift */,
 			);
 			path = Strategies;
+			sourceTree = "<group>";
+		};
+		5020494C2811C8C7001D6AA8 /* Caretakers */ = {
+			isa = PBXGroup;
+			children = (
+				5020494D2811C918001D6AA8 /* DiskCaretaker.swift */,
+			);
+			path = Caretakers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				50204933280F1E98001D6AA8 /* QuestionGroup.swift in Sources */,
 				5020494B28118F5E001D6AA8 /* AppSettingsViewController.swift in Sources */,
 				5020493E2810196C001D6AA8 /* SelectQuestionGroupViewController.swift in Sources */,
+				5020494E2811C918001D6AA8 /* DiskCaretaker.swift in Sources */,
 				50204935280F1EA3001D6AA8 /* QuestionGroupData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

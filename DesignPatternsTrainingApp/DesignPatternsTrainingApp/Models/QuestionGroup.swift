@@ -7,7 +7,29 @@
 
 import Foundation
 
-struct QuestionGroup {
-  public let questions: [Question]
-  public let title: String
+class QuestionGroup: Codable {
+    
+    class Score: Codable {
+        
+        var correctCount: Int = 0
+        var incorrectCount: Int = 0
+        public init() {}
+        
+    }
+    
+    public let questions: [Question]
+    
+    public var score: Score
+    
+    public let title: String
+    
+    public init(questions: [Question],
+                score: Score = Score(),
+                title: String) {
+        
+        self.questions = questions
+        self.score = score
+        self.title = title
+        
+    }
 }
