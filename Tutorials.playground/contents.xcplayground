@@ -4,5 +4,6 @@
         <page name='Delegation'/>
         <page name='Strategy'/>
         <page name='Singletone'/>
+        <page name='Memento'/>
     </pages>
 </playground>
