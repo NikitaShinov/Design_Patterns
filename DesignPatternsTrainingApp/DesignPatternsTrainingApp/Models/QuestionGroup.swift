@@ -60,8 +60,6 @@ class QuestionGroup: Codable {
     
     public let title: String
     
-    
-    
     public init(questions: [Question],
                 score: Score = Score(),
                 title: String) {
@@ -71,6 +69,4 @@ class QuestionGroup: Codable {
         self.title = title
         
     }
-    
-    
 }
