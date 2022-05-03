@@ -7,3 +7,4 @@ Just a training project to dive into design patterns by raywenderlich's book "De
 - Strategy
 - Singletone
 - Memento
+- Observer
