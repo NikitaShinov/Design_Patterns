@@ -40,8 +40,7 @@ class BaseQuestionStrategy: QuestionStrategy {
         self.questionGroupCaretaker = questionGroupCaretaker
         self.questions = questions
         // 4
-        self.questionGroupCaretaker.selectedQuestionGroup.score =
-        QuestionGroup.Score()
+        self.questionGroupCaretaker.selectedQuestionGroup.score.reset()
     }
     // MARK: - QuestionStrategy
     public var title: String {
